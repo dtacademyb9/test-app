@@ -19,6 +19,7 @@ public class IngredientByIdConverter implements Converter<String, Ingredient> {
 		ingredientMap.put("COTO", new Ingredient("COTO", "Corn Tortilla", Type.WRAP));
 		ingredientMap.put("GRBF", new Ingredient("GRBF", "Ground Beef", Type.PROTEIN));
 		ingredientMap.put("CARN", new Ingredient("CARN", "Carnitas", Type.PROTEIN));
+		ingredientMap.put("CHKN", new Ingredient("CHKN", "Chicken", Type.PROTEIN));
 		ingredientMap.put("TMTO", new Ingredient("TMTO", "Diced Tomatoes", Type.VEGGIES));
 		ingredientMap.put("LETC", new Ingredient("LETC", "Lettuce", Type.VEGGIES));
 		ingredientMap.put("CHED", new Ingredient("CHED", "Cheddar", Type.CHEESE));

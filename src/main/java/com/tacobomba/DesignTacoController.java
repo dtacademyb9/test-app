@@ -34,6 +34,7 @@ public class DesignTacoController {
 				new Ingredient("COTO", "Corn Tortilla", Type.WRAP),
 				new Ingredient("GRBF", "Ground Beef", Type.PROTEIN),
 				new Ingredient("CARN", "Carnitas", Type.PROTEIN),
+				new Ingredient("CHKN", "Chicken", Type.PROTEIN),
 				new Ingredient("TMTO", "Diced Tomatoes", Type.VEGGIES),
 				new Ingredient("LETC", "Lettuce", Type.VEGGIES),
 				new Ingredient("CHED", "Cheddar", Type.CHEESE),
@@ -87,7 +88,7 @@ public class DesignTacoController {
 		
 		tacoOrder.addTaco(taco);
 	  log.info("Processing taco: {}", taco);
-	  return "redirect:/orders/orderForm.html";
+	  return "redirect:/orderForm.html";
 	}
 
 }
